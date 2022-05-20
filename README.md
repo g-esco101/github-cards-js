@@ -16,7 +16,7 @@ The course concerns the fundamental concepts of React: designing class component
 2. Clone this repository
 
 ```
-git remote add origin https://github.com/g-esco101/github-cards-js.git
+git clone https://github.com/g-esco101/github-cards-js.git
 ```
 
 3. Change to root directory
@@ -107,7 +107,7 @@ const IndexPage = () => {
 export default IndexPage;
 ```
 
-\_document.js
+_document.js
 
 ```
 import Document, { Head, Html, Main, NextScript } from "next/document";
