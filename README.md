@@ -1,6 +1,6 @@
 # Github Cards
 
-A React app where you input a github username and it displays some of the user's information. It is the result of completing the [React: Getting Started](https://www.pluralsight.com/courses/react-js-getting-started) course on Pluralsight and is one of the two applications that are implemented.
+A React app where you input a github username, it gets the user's info via the github api, and then it displays some of the user's info. It is the result of completing the [React: Getting Started](https://www.pluralsight.com/courses/react-js-getting-started) course on Pluralsight and is one of the two applications that are implemented.
 
 The course concerns the fundamental concepts of React: designing class components and stateful function component; how to one-way flow data and behavior in a component tree; how to read and update state elements; modern JavaScript features used with React like arrow functions, destructuring rest and spread operators, classes, async/await, and more; taking input from the user; reading data from an API; managing side effects, like timers; sharing stateful logic with custom hooks; configuring and using a local JavaScript development environment on your machine; and the skills and knowledge you need to understand React projects and start simple React applications from scratch.
 
@@ -107,7 +107,7 @@ const IndexPage = () => {
 export default IndexPage;
 ```
 
-_document.js
+\_document.js
 
 ```
 import Document, { Head, Html, Main, NextScript } from "next/document";
